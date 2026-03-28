@@ -1,6 +1,6 @@
 ---
 name: reverse
-description: Reverse-engineer software into product-level specifications and capability maps. Use when Codex needs to analyze an OSS project, existing product, repo, docs, demos, or API surface in terms of operator value, system capabilities, observable behavior, user flows, constraints, and non-goals while avoiding implementation details.
+description: Reverse-engineer software into product-level specifications and capability maps. Use when analyzing an OSS project, existing product, repo, docs, demos, or API surface to extract operator value, system capabilities, observable behavior, user flows, constraints, and non-goals — without implementation details. Triggers on "understand what this software does", "write a product spec from code", "extract requirements from this repo", "what does this project do as a product", "reverse-engineer this", "analyze this system", "describe this from the outside in", or any request to study software as a product rather than as an implementation.
 ---
 
 # Reverse
@@ -114,7 +114,7 @@ Example rewrite:
 
 ## Separate The Layers
 
-Keep these layers distinct:
+Keep these layers distinct so the product spec stays durable — mixed-layer specs rot the moment the team swaps a database or framework, forcing a rewrite of requirements that should have been stable.
 
 - Product spec: user value, capabilities, observable behavior, constraints, non-goals
 - Interface spec: routes, events, payload contracts, protocol expectations
