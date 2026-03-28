@@ -74,6 +74,10 @@ A good reverse-engineered product spec:
 - explains user or operator value
 - avoids naming libraries, frameworks, classes, or internal workers unless they are part of the external contract
 
+## Reversed Specs
+
+- [Claude Subconscious](https://gist.github.com/ianphil/550d53d7715568c14b2cd617c086c581) — Persistent background agent that gives Claude Code long-term memory via Letta. Observes sessions, reads codebases, whispers guidance back. (2026-03-28)
+
 ## Notes
 
 The skill root is `~/src/reverse`, not a nested directory. Treat this folder itself as the skill.
