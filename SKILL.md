@@ -138,6 +138,17 @@ Run this check before finalizing:
 
 Move or rewrite any statement that fails these checks.
 
+## Output Location
+
+Write all spec documents to `reverse-specs/` in the target repo root. Create the directory if it does not exist.
+
+For a single-product repo, produce one file:
+- `reverse-specs/product-spec.md`
+
+For larger systems with multiple capability areas, produce:
+- `reverse-specs/product-spec.md` — epic-level overview
+- `reverse-specs/<capability-area>.md` — one file per capability area
+
 ## Output Shape
 
 Use this structure unless the user asks for another format:
